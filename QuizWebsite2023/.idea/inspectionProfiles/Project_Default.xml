@@ -1,0 +1,69 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="a" />
+            <item index="7" class="java.lang.String" itemvalue="li" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="IncorrectHttpHeaderInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="customHeaders">
+        <set>
+          <option value="&lt;%= &quot;Wrong email or password&quot;%&gt;" />
+          <option value="%&gt;" />
+          <option value="    String email = request.getParameter(&quot;email&quot;);" />
+          <option value="    String password = request.getParameter(&quot;password&quot;);" />
+          <option value="    System.out.println(&quot;Email" />
+          <option value="    System.out.println(&quot;Password" />
+          <option value="&lt;%" />
+          <option value="    response.sendRedirect(&quot;view/admin.html&quot;);" />
+          <option value="    response.sendRedirect(&quot;Admin.html&quot;);" />
+          <option value="    System.out.println(&quot;i" />
+          <option value="    try {" />
+          <option value="        String courseId = request.getParameter(&quot;courseId&quot;);" />
+          <option value="        String courseName = request.getParameter(&quot;courseName&quot;);" />
+          <option value="        Course course = new Course();" />
+          <option value="        course.setCourseId(courseId);" />
+          <option value="        course.setCourseName(courseName);" />
+          <option value="        boolean courseAdded = CourseDAO.addCourse(course);" />
+          <option value="        if (course != null)) {" />
+          <option value="        if (course != null) {" />
+          <option value="        if (course.setCourseId() != null) {" />
+          <option value="        if (course.getCourseId() != null) {" />
+          <option value="    if(courseId != null){" />
+          <option value="    updated = CourseDAO.EditCourse(courseId, courseName);" />
+          <option value="    }" />
+          <option value="    String courseName = request.getParameter(&quot;courseName&quot;);" />
+          <option value="    String courseId = request.getParameter(&quot;courseId&quot;);" />
+          <option value="    boolean updated = false;" />
+          <option value="    if(courseName != null){" />
+          <option value="        String studentEmail = request.getParameter(&quot;studentEmail&quot;);" />
+          <option value="        String studentName = request.getParameter(&quot;studentName&quot;);" />
+          <option value="        int age = Integer.parseInt(request.getParameter(&quot;age&quot;));" />
+          <option value="        String password = request.getParameter(&quot;password&quot;);" />
+          <option value="        String gender = request.getParameter(&quot;gender&quot;);" />
+          <option value="        String ageString = request.getParameter(&quot;age&quot;);" />
+          <option value="        int age =0;" />
+          <option value="        if (ageString != null &amp;&amp; !ageString.isEmpty()) {" />
+          <option value="            age = Integer.parseInt(ageString);" />
+          <option value="        }" />
+          <option value="        String quizName = request.getParameter(&quot;quizName&quot;);" />
+          <option value="        String notificationMessage = request.getParameter(&quot;message&quot;);" />
+          <option value="        String notificationMessage = request.getParameter(&quot;notification&quot;);" />
+        </set>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

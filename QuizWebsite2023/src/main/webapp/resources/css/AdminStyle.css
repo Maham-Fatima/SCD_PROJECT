@@ -1,0 +1,199 @@
+body {
+    background-image:
+    url('../pics/Background.png');
+    background-size: 100% auto;
+}
+header {
+    background-color: black;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 8vh;
+}
+.logo {
+    display: flex;
+    height: 6vh;
+    padding: 5px;
+    margin-right: 35vw;
+}
+
+.logo:hover {
+    height: 20vh;
+}
+
+nav ul {
+    display: flex;
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 2px 40px 2px 70px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+}
+
+ul li a:hover {
+    font-size: larger;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 2px 40px 2px 70px;
+}
+
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    height: 40vh;
+}
+
+.clock-content {
+    display: flex;
+    flex-direction: row; /* Change to "row" to align heading and cursor in the same line */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Enable wrapping for cursor to move to a new line */
+    margin-bottom: 10px; /* Add margin to separate the heading and time */
+    height: 16vh;
+}
+
+.clock-content .h {
+    margin-right: 5px; /* Add spacing between heading and cursor */
+}
+
+.clock p:hover {
+    font-size: x-large;
+}
+
+.clock-time {
+    display: flex;
+    flex-direction: column; /* Display time in a new line */
+    align-items: center;
+}
+main {
+    height: 82vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.Student:hover,
+.Quiz:hover,
+.Course:hover, 
+.notification:hover,
+.feedback:hover{
+    font-size: larger;
+}
+
+.Student {
+    text-decoration: none;
+    display: inline-flex;
+    background-color: rgb(228, 228, 154);
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 30%;
+    margin: 10px;
+    height: 20%;
+}
+
+.Quiz {
+    display: inline-flex;
+    background-color: lightseagreen;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 30%;
+    margin: 10px;
+    height: 20%;
+}
+
+.feedback {
+    display: inline-flex;
+    background-color: peachpuff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 30%;
+    margin: 10px;
+    height: 20%;
+}
+
+.Course {
+    display: inline-flex;
+    background-color: lightgreen;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 30%;
+    margin: 10px;
+    height: 20%;
+}
+.notification {
+    display: inline-flex;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 30%;
+    margin: 10px;
+    height: 20%;
+}
+.Question {
+    text-decoration: none;
+    display: inline-flex;
+    background-color: rgb(228, 228, 154);
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 30%;
+    margin: 10px;
+    height: 20%;
+}
+.Student a,
+.Quiz a,
+.Course a,
+.notification a,
+.feedback a,
+.Question a{
+    text-decoration: none;
+    color: black; /* Use the default text color for links */
+}
+
+.Student a:hover,
+.Quiz a:hover,
+.Course a:hover,
+.notification a:hover,
+.feedback a:hover,
+.Question a:hover{
+    color: blue; /* Change the color to desired hover color */
+}
+
+nav ul li a:hover {
+    font-size: larger;
+    color: blue; /* Change the color to your desired hover color */
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 6vh;
+    width: 100%;
+}
+
+footer p {
+    margin: auto;
+}

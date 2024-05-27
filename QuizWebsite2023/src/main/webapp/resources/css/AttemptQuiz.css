@@ -1,0 +1,42 @@
+main{
+    height: 82vh;
+}
+
+body {
+    margin: 0;
+    background-image: url('../pics/Background.png');
+    background-size: 100% auto;
+}
+.add {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 80vw;
+    height: 60vh;
+    color: black;
+
+    margin: auto; /* Center the element horizontally */
+}
+
+form input[type="submit"] {
+    background-color: forestgreen;
+    color: #f0f0f0;
+    width: 15vw;
+    border: 2px solid white;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+}
+
+
+form input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+}

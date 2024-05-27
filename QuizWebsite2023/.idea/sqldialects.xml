@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/Model/quizwebsite2023/CourseDAO.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/Model/quizwebsite2023/EnrollmentDAO.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/Model/quizwebsite2023/FeedbackDAO.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/Model/quizwebsite2023/Login.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/Model/quizwebsite2023/NotificationDAO.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/Model/quizwebsite2023/QuestionDAO.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/Model/quizwebsite2023/QuizDAO.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/Model/quizwebsite2023/ResultDAO.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/Model/quizwebsite2023/StudentDAO.java" dialect="GenericSQL" />
+  </component>
+</project>

@@ -1,0 +1,120 @@
+/* mainStyles.css */
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('../pics/Background.png');
+    background-size: 100% auto;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Main-Login {
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+#admin, #student {
+    margin: 10px;
+}
+
+#admin {
+    background-color: forestgreen !important;
+    color: white;
+    border-radius: 100px;
+    height: 10vh;
+    width: 20vw;
+}
+#student{
+    background-color: orangered !important;
+    color: white;
+    border-radius: 100px;
+    height: 10vh;
+    width: 20vw;
+}
+
+#admin:hover, #student:hover {
+    background-color: #f0f0f0 !important;
+    color: black;
+}
+
+/* headerStyles.css */
+
+header {
+    background-color: black;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 8vh;
+}
+
+.logo {
+    display: flex;
+    height: 6vh;
+    padding: 5px;
+    margin-right: 35vw;
+}
+
+.logo:hover {
+    height: 20vh;
+}
+
+nav ul {
+    display: flex;
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 2px 40px 2px 70px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+}
+
+ul li a:hover {
+    font-size: larger;
+}
+
+/* footerStyles.css */
+#feedback{
+    background-color: greenyellow;
+    color: white;
+}
+#back{
+    background-color: green;
+    color: white;
+}
+#answerSheet{
+    background-color: orangered;
+    color: white;
+}
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 6vh;
+    width: 100%;
+}
+
+footer p {
+    margin: auto;
+}

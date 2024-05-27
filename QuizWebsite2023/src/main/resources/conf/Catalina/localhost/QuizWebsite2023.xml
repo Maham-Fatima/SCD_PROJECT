@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context docBase="E:/Projects/QuizWebsite2023/src/main/webapp">
+  <Resources cacheMaxSize="10240">
+    <PreResources base="E:/Projects/QuizWebsite2023/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+    <PostResources base="C:/Users/HP/.m2/repository/jakarta/mvc/jakarta.mvc-api/2.0.0/jakarta.mvc-api-2.0.0.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jakarta.mvc-api-2.0.0.jar"/>
+    <PostResources base="E:/Projects/QuizWebsite2023/src/main/resources/ojdbc11.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/ojdbc11.jar"/>
+    <PostResources base="C:/Users/HP/AppData/Roaming/JetBrains/IntelliJIdea2023.2/javascript/extLibs/http_unpkg.com_typed.js@2.0.16_dist_typed.umd.js" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/http_unpkg.com_typed.js@2.0.16_dist_typed.umd.js"/>
+  </Resources>
+</Context>

@@ -1,0 +1,47 @@
+main{
+    height: 82vh;
+}
+.add {
+    background-color: rgba(255, 255, 255, 0.3);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px; /* Adjusted padding */
+    width: 40vw;
+    height: 60vh;
+    color: #f0f0f0;
+    margin: auto; /* Center the element horizontally */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input[type="text"]{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#add {
+    background-color: forestgreen;
+    color: #f0f0f0;
+    width: 15vw;
+    border: 2px solid white;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+}
+
+#add:hover {
+    background-color: white;
+    color: black;
+}

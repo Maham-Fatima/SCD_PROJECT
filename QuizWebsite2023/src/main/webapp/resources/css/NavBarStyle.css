@@ -1,0 +1,67 @@
+/* headerStyles.css */
+main {
+    min-height: 82vh; /* Set minimum height to ensure the footer is at the bottom */
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    margin: 0;
+    background-image: url('../pics/Background.png');
+    background-size: 100% auto;
+}
+
+header {
+    background-color: black;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 8vh;
+}
+
+.logo {
+    display: flex;
+    height: 6vh;
+    padding: 5px;
+    margin-right: 35vw;
+}
+
+.logo:hover {
+    height: 20vh;
+}
+
+nav ul {
+    display: flex;
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 2px 40px 2px 70px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+}
+
+ul li a:hover {
+    font-size: larger;
+}
+
+/* footerStyles.css */
+footer {
+    margin-top: auto; /* Push the footer to the bottom */
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 6vh;
+    width: 100%;
+}
+
+footer p {
+    margin: auto;
+}

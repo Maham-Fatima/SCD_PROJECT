@@ -1,0 +1,74 @@
+/* ViewCourseStyle.css */
+
+body {
+    height: 82vh;
+}
+
+.view {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+input[type="submit"] {
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70vw;
+    margin-top: 20px;
+    max-height: 50vh;
+    overflow-y: auto;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: forestgreen;
+    color: white;
+}
+
+td {
+    background-color: white;
+}
+
+form input[type="submit"][value="Search"] {
+    background-color: forestgreen;
+    color: white;
+}
